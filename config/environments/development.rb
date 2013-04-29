@@ -34,4 +34,8 @@ Dessert::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # TODO: to be removed
+  # Config test message
+  config.test_home_message = "This is my test home message from development.rb"
 end
