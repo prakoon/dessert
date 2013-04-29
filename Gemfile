@@ -27,6 +27,9 @@ end
 gem 'jquery-rails',   '~> 2.1.4'
 gem 'haml',           '3.1.7'
 
+gem 'json',   '1.7.7'
+gem 'psych',  '1.3.4'   # Parsing YAML: http://rubygems.org/gems/psych
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
