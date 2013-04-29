@@ -10,13 +10,7 @@ gem 'rails', '3.2.13'
 gem 'rack',   '1.4.5'
 gem 'thin',   '1.4.1'
 
-group :development do
-  gem 'sqlite3', '1.3.5'
-end
-
-group :production do
-  gem 'pg',     '0.14.1'
-end
+gem 'pg',     '0.14.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
