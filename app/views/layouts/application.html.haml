@@ -1,0 +1,13 @@
+!!! 5
+== <!--[if IE 7]><html class="ie7 oldie" lang="en"><![endif]-->
+== <!--[if IE 8]><html class="ie8 oldie" lang="en"><![endif]-->
+== <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+
+%head
+  %title=Dessert
+  = stylesheet_link_tag "application", :media => "all"
+  = javascript_include_tag "application"
+  = csrf_meta_tags
+
+%body
+  = yield
