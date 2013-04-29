@@ -58,5 +58,9 @@ module Dessert
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # TODO: to be removed
+    # Config test message
+    config.test_home_message = "This is my test home message from development.rb"
   end
 end
